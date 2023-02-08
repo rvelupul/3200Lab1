@@ -12,6 +12,7 @@
         android:theme="@style/Theme.K2023_02_02c"
         tools:targetApi="31">
         <activity
+            android:screenOrientation="fullSensor"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
